@@ -1,44 +1,33 @@
-## Kwitter : Twitter Clone Project
+# KiMeet
 
-트위터 클론 프로젝트 
+`KiM` + `Meet`
+KiMeet은 "나(Kimaerimy)가 사람들을 만나는(Meet) 공간" 이라는 의미를 담고 있는 프로젝트입니다.
+이 프로젝트는 Slack, Twitter(X.com) 등의 클론 강의를 통해 배운 내용을 토대로 시작되었습니다.
+1차 'Kwitter' 프로젝트는 React.js와 Firebase를 활용하여 간단한 소셜 네트워크 서비스 기능을 구현한 프로젝트였다면,
+2차 'KiMeet'는 기존 Kwitter의 기능을 확장하여 더 나은 성능의 프로젝트를 목표로 하고 있습니다.
 
-  
-## 사용 기술
+## 구현 기능
+### KiMeet
 
-> Firebase : Firestore, Authentication, 
+### Kwitter
+- Firebase Authentication
+  - 소셜 로그인 및 이메일 로그인 구현
+- Firebase Firestore DB
+  - 게시글 및 댓글, 좋아요 기능 구현
+  - 유저 검색 및 친구추가 기능 구현
+- Firebase storage
+  - 유저 이미지 업로드
 
-> React.js, SCSS
 
-## 구현된 기능
+## 기술 스택
+### KiMeet (Kwitter v2)
+- **Frontend** : React.js, Next.js, TypeScript, Tailwind CSS
+- **Database** : Supabase 
+- **Authentication** : Supabase Auth
+- **Deployment** : Vercel
 
-* 게시글(트윗)
-  * 댓글
-  * 리트윗 
-
-* 회원가입 및 로그인
-  * Firebase Authentication을 활용한 회원가입 및 로그인 구현
-  * Firebase Firestore 추가 회원정보 구현
-    * 프로필
-
-## 코드 (Code)
-
-* 문장속 코드 `example code inline` 삽입 예시입니다.
-
-* 박스형 코드 삽입예시입니다.
-```
-example code box
-```
-
-## 링크
-
-* [https://www.github.io/kwitter](https://kimaerimy.github.io/kwitter)
-* [Github](https://www.github.com)
-
-## 강조
-
-* 강조 문법 **강조된 부분** 예시입니다.
-
-## 이미지
-
-![kwitter-login](https://github.com/kimaerimy/kwitter/assets/102725693/79b24c12-4d23-4899-af59-7a1fc838f806)
-![kwitter-post](https://github.com/kimaerimy/kwitter/assets/102725693/9864c668-a220-4186-92d2-309b7f1f0635)
+### Kwitter
+- **Frontend** : React.js, SCSS
+- **Database** : Firebase Firestore (No Backend)
+- **Authentication** : Firebase Authentication
+- **Deployment** : GitHub Pages
